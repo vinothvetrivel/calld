@@ -1,0 +1,15 @@
+Database
+==========
+create database CMS;
+
+cms_user table
+===============
+create table cms_user(user_id int(5) primary key auto_increment,username varchar(30),password varchar(20),email_id varchar(50));
+
+supplier table
+----------------
+create table supplier(supplier_id int(5) primary key auto_increment,supplier_name varchar(100),company_name varchar(200),company_address varchar(300),company_mobile varchar(12),supplier_email_id varchar(100));
+
+call_details
+-----------------
+create table call_details(call_id int primary key auto_increment,supplier_id int,user_id int,description text,creation_date datetime,update_date datetime);

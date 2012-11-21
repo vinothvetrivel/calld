@@ -10,7 +10,6 @@
 			$login->password = $password;
 			if($login->selectUser())
 				{
-					$responseObj->alert("Login successfull");
 					$_SESSION['userId']=$login->userId;
 					$_SESSION['username']=$login->username;
 					$_SESSION['emailId']=$login->emailId;

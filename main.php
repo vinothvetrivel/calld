@@ -17,6 +17,7 @@
 	$smarty = new Smarty;
 	$xajax->registerFunction("newCall");
 	$xajax->registerFunction("showCall");
+	$xajax->registerFunction("deleteCall");
 	$xajax->registerFunction("getSupplierDetails");
 	$xajax->registerFunction("addSupplierDetails");
 	$xajax->processRequest();

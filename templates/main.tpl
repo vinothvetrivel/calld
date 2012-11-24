@@ -13,7 +13,7 @@
               			<a href="javascript:;" onclick="xajax_newCall();">New call</a>
               		</li>
               		<li><a href="javascript:;" onclick="xajax_showCall();">Show call</a></li>
-              		<li><a href="#contact">Delete call</a></li>
+              		<li><a href="javascript:;" onclick="xajax_deleteCall();">Delete call</a></li>
             	</ul>
           	</div><!--/.nav-collapse -->
         </div>

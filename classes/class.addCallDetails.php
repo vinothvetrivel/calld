@@ -25,5 +25,23 @@
 					$this->callId=mysql_insert_id();
 					return $this->callId;
 				}
+			function deleteCallDetails()
+				{
+					$connection = new dbConnection;
+					$connection->connectDatabase();
+					$sql="delete from call_details where";
+					$condition = " ";
+					if($this->callId!=0)
+					{
+						$sql=$sql.$condition."call_id='$this->callId'";
+						$condition = " AND ";
+					}
+					if($this->userId!=0)
+					{
+						$sql=$sql.$condition."user_id='$this->userId'";
+					}
+					
+					mysql_query($sql);
+				}
 		}
 ?>

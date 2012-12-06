@@ -9,7 +9,7 @@
           	</a>
           	<div class="nav-collapse collapse">
             	<ul class="nav">
-              		<li class="active">
+              		<li>
               			<a href="javascript:;" onclick="xajax_newCall();">New call</a>
               		</li>
               		<li><a href="javascript:;" onclick="xajax_showCall();">Show call</a></li>

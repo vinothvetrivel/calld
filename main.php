@@ -13,6 +13,7 @@
 	require_once("Control/menu.php");
 	require_once("Control/getSupplierDetails.php");
 	require_once("Control/addSupplierDetails.php");
+	require_once("Control/deleteCallId.php");
 	$xajax = new xajax();
 	$smarty = new Smarty;
 	$xajax->registerFunction("newCall");
@@ -20,6 +21,7 @@
 	$xajax->registerFunction("deleteCall");
 	$xajax->registerFunction("getSupplierDetails");
 	$xajax->registerFunction("addSupplierDetails");
+	$xajax->registerFunction("deleteCallId");
 	$xajax->processRequest();
 	$xajax->printJavascript();
 	$smarty->assign("username",$_SESSION['username']);

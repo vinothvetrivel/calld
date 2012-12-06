@@ -6,7 +6,7 @@
 		<script type="text/javascript" src="lib/js/validation.js" ></script>
 		<script type="text/javascript" src="lib/js/common.js" ></script>
 		<script type="text/javascript" src="lib/js/bootstrap.js"></script>
-		<script type="text/javascript" src="lib/js/bootstrap.min.js"></script>
+		<!--<script type="text/javascript" src="lib/js/bootstrap.min.js"></script>-->
 		<link rel="stylesheet" type="text/css" href="lib/css/bootstrap.css">
 		<link rel="stylesheet" type="text/css" href="lib/css/bootstrap.min.css">
 		<link rel="stylesheet" type="text/css" href="lib/css/bootstrap-responsive.css">
